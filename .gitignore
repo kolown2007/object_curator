@@ -26,4 +26,5 @@ vite.config.ts.timestamp-*
 
 #database
 /migrations
+/schema
 drizzle.config.ts
