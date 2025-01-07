@@ -63,4 +63,13 @@
         class="w-4 h-4 lg:w-6 lg:h-6" 
       />
     </div>
-  </Navbar>
+    
+    <Dropdown placement="bottom" triggeredBy="#avatar-menu">
+      <DropdownHeader>
+        <span class="block text-sm font-medium">{user?.name}</span>
+        <span class="block truncate text-sm">{user?.email}</span>
+      </DropdownHeader>
+  
+      <DropdownItem on:click={handleSignOut}>Sign out</DropdownItem>
+    </Dropdown>
+</Navbar>
