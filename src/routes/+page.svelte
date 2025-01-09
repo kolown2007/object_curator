@@ -19,3 +19,16 @@
 
 </main> 
 
+<style>
+  :global(html, body) {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  main {
+    overflow: hidden;
+    height: 100vh;
+  }
+</style>
