@@ -36,7 +36,7 @@ export const load: LayoutServerLoad = async (event) => {
         image: session.user.image,
         permissions: userPermissions
       },
-      data: reversedData.slice(0, 42),
+      data: reversedData.slice(0, 343),
       objectcount: data.length
     }
   }
